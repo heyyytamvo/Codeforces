@@ -19,6 +19,7 @@ int main(){
     
     for (int endBook = 0; endBook < numberOfBooks; endBook++)
     {
+        /* code */
         readTime += array[endBook];
 
         while (readTime > freeMinutes){
